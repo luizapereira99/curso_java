@@ -1,0 +1,44 @@
+fiz esse código na aula de funções com javascript e pretendo descobrir porque não está funcionando
+
+<meta charset="utf-8">
+
+<script>
+	//aprendendo funções
+ function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+ 
+ function mostra (frase) {
+ 	document.write(frase);
+ 	pulaLinha()
+  
+ }
+
+mostra (estou testando funções)
+
+</script>
+
+DESCOBRI! FALTOU ASPAS, POIS TODO TEXTO EM JAVACRIPT POSSUI ASPAS
+<meta charset="utf-8">
+
+<script>
+	//aprendendo funções
+ function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+ 
+ function mostra (frase) {
+ 	document.write(frase);
+ 	pulaLinha()
+
+ }
+
+mostra ("estou testando funções")
+
+</script>
