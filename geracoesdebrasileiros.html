@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<h1> Quantas gerações de brasileiros já se passaram desde 1500? </h1>
+
+<script>
+
+
+	function pulaLinha() {
+		document.write("<br>")
+	}
+
+
+
+function exibir(texto) {
+	document.write(texto)
+	pulaLinha()
+}
+
+var anoAtual= 2022
+var anoInicial= 1500
+var anosPassados= anoAtual- anoInicial
+var mediaDeIdadeParaTerFilhos= 28
+ 
+exibir("Desde o descobrimento do brasil até a atualidade, se passaram "+ anosPassados+ " anos")
+exibir("Assim, levando em conta que a idade média de ter filhos seja 28 anos, temos, em média  "+ Math.round(anosPassados/mediaDeIdadeParaTerFilhos)+ " gerações de brasileiros")
+
+</script>
