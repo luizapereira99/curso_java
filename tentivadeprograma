@@ -1,0 +1,107 @@
+**essa foi minha tentativa de programa em javascript, que deu errado
+<meta charset="utf-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>")
+
+
+	}
+
+var minhaIdade= 22
+var idadeIrmao= 21
+
+function resultado(resultado) {
+	
+	document.write("Nossa diferença de idade é de"+ minhaIdade-idadeIrmao + "anos")
+	pulaLinha()
+}
+
+
+
+//lembrando que é necessário chamar a função dessa forma para que ela funcione:
+ 
+ resultado(resultado)
+
+
+</script>
+
+**arrumando o código, temos:
+
+<meta charset="utf-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>")
+
+
+	}
+
+var minhaIdade= 22
+var idadeIrmao= 21
+
+function exibir(frase) {
+	
+	document.write(frase)
+	pulaLinha()
+}
+
+
+
+//lembrando que é necessário chamar a função dessa forma para que ela funcione:
+ exibir ("Nossa diferença de idade é de"+ minhaIdade-idadeIrmao + "anos")
+
+
+</script>
+
+***ainda não deu certo
+GENTEEE FALTOU O PARENTESIS ANTES DA CONTINHA!
+ASSIM DÁ CERTO:
+Também percebi que é de bom tom deixar funcoes com o nome do verbo da ação que elas vão realizar
+<meta charset="utf-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>")
+
+	}
+
+
+
+function exibir(frase) {
+	
+	document.write(frase)
+	pulaLinha()
+}
+
+
+var minhaIdade= 22
+var idadeIrmao= 21
+
+//lembrando que é necessário chamar a função dessa forma para que ela funcione:
+ exibir ("Nossa diferença de idade é de"+ (minhaIdade-idadeIrmao) + "anos")
+
+
+</script>
+
+<meta charset="utf-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>")
+
+	}
+
+
+
+function exibir(frase) {
+	
+	document.write(frase)
+	pulaLinha()
+}
+
+
+var minhaIdade= 22
+var idadeIrmao= 21
+
+//lembrando que é necessário chamar a função dessa forma para que ela funcione:
+ exibir ("Nossa diferença de idade é de"+ (minhaIdade-idadeIrmao) + "anos")
+
+
+</script>
