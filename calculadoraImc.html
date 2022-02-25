@@ -1,0 +1,37 @@
+//nessa tarefa aprendi a usar ''coordenadas'' para fazer operações de forma mais prática
+
+<meta charset="utf-8">
+<script> 
+function pulaLinha() {
+	
+	document.write("<br><br>")
+
+}
+
+function exibir(texto) {
+	document.write(texto)
+	pulaLinha()
+
+}
+
+function calculaImc(altura, peso) {
+	var imc = peso / (altura * altura)
+	exibir("O imc calculado é "+ imc)
+}
+
+ //pesoPessoaX=68
+// alturaPessoaX= 1.67
+
+calculaImc(1.67, 68);
+
+
+
+
+//pesoPessoaY=60
+// alturaPessoaY=1.69
+
+calculaImc(1.69, 60);
+
+
+
+</script>
