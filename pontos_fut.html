@@ -1,0 +1,34 @@
+// agora aprendi que a função prompt lê números como textos, e para resolver isso é necessário usar a função parseInt() para converter string em número
+com isso vamos calcular os pontos de um time de futebol
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+}
+
+function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+}
+
+var nome= prompt("Digite seu nome");
+
+var vitorias= parseInt( prompt(nome +", qual o número de vitórias?"));
+
+
+var empates= parseInt( prompt(nome +", qual o número de empates?"));
+
+//uma vitória vale 3 pontos e um empate vale 1 ponto
+
+var pontos= (vitorias * 3) + empates
+
+mostra(nome+", os pontos do seu time é " + pontos)
+
+
+</script>
+
